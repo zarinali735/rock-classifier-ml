@@ -32,8 +32,7 @@ rock-classifier-ml/
 ---
 
 ## How to Use
-
-### Clone the repo / download the folder
+### download the folder
 ```bash
 git clone https://github.com/zarinali735/rock-classifier-ml.git
 cd rock-classifier-ml
@@ -56,7 +55,7 @@ output/predicted_rock_types.csv
 ### predicted_rock_types.csv → Output predictions from predict.py
 ### The training script also includes scatter plots and a confusion matrix for visual performance insights.
 
-###  Data Source : Original data from EarthChem Portal https://www.earthchem.org/, exported as: earthchem_download_46477_csv.csv
+### Data Source : Original data from EarthChem Portal https://www.earthchem.org/, exported as: earthchem_download_46477_csv.csv
 ### 
 👤 Author
 Zarin Ali
