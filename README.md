@@ -65,3 +65,14 @@ earthchem_download_46477_csv.csv
 Zarin Ali
 Geologist | Researcher
 2025
+
+---
+
+## Citation
+If you use this project in your research or teaching, please cite it as:
+
+**APA Style:**
+Ali, Z. (2025). *Rock Type Classifier using Decision Trees* (Version 1.1) [Software]. Zenodo. https://doi.org/10.5281/zenodo.15673394
+
+
+
