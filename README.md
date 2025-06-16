@@ -1,5 +1,7 @@
 # Rock Type Classifier using Decision Trees
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15673394.svg)](https://doi.org/10.5281/zenodo.15673394)
+
 This project uses a Decision Tree Classifier to classify igneous rocks (**Basalt**, **Andesite**, **Rhyolite**, **Other**) based on major oxide geochemical data: **SiO₂**, **FeO**, and **Al₂O₃**.
 
 It’s a simple but effective tool for geologists, students, or researchers wanting quick insights from geochemical datasets.
