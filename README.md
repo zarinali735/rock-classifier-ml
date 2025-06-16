@@ -1,6 +1,6 @@
-# Rock Type Classifier using Decision Trees 
+# Rock Type Classifier using Decision Trees
 
-This project uses a Decision Tree Classifier to classify igneous rocks (Basalt, Andesite, Rhyolite, Other) based on major oxide geochemical data (SiO₂, FeO, Al₂O₃).
+This project uses a Decision Tree Classifier to classify igneous rocks (**Basalt**, **Andesite**, **Rhyolite**, **Other**) based on major oxide geochemical data: **SiO₂**, **FeO**, and **Al₂O₃**.
 
 It’s a simple but effective tool for geologists, students, or researchers wanting quick insights from geochemical datasets.
 
@@ -14,12 +14,11 @@ The classifier uses:
 - **FeO (Iron(II) Oxide)**
 - **Al₂O₃ (Aluminum Oxide)**
 
-to predict the rock type based on thresholds and patterns learned during training.
+to predict rock types based on geochemical thresholds and patterns learned during training.
 
 ---
 
-## Project Structure
-
+## 📁 Project Structure
 rock-classifier-ml/
 ├── rock_classifier_script.py # Training + plotting script
 ├── predict.py # Run predictions on new CSV data
@@ -32,32 +31,35 @@ rock-classifier-ml/
 ---
 
 ## How to Use
-### download the folder
-```bash
+
+### Download or clone the repository
 git clone https://github.com/zarinali735/rock-classifier-ml.git
 cd rock-classifier-ml
 
----
 ### Install the requirements
 pip install -r requirements.txt
----
-### Prediction should have these columns/ Prepare your own input .csv
+
+### Prepare your input CSV
 SIO2,FEO,AL2O3
----
-### Run predictions
-predict.py sample_data.csv
-### This will create a file named 
+
+### Run the prediction script
+python predict.py sample_data.csv
+## This will create a file named:
 output/predicted_rock_types.csv
-### Note that in this repository, the output/ folder has been compressed for download as output.zip
----
-### Download and extract output.zip to access:
-### rock_classifier_model.joblib → Trained Decision Tree model
-### predicted_rock_types.csv → Output predictions from predict.py
-### The training script also includes scatter plots and a confusion matrix for visual performance insights.
----
-### Data Source : Original data from EarthChem Portal https://www.earthchem.org/, exported as: earthchem_download_46477_csv.csv
-### 
-👤 Author
+## Note: In this repository, the output/ folder is compressed as output.zip
+## Output Contents
+Download and extract output.zip to access:
+rock_classifier_model.joblib → Trained Decision Tree model
+predicted_rock_types.csv → Output predictions from predict.py
+The training script also generates:
+A scatter plot of SiO₂ vs FeO, color-coded by rock type
+A confusion matrix and classification report for model performance
+
+## Data Source
+Original data downloaded from the https://search.earthchem.org  , exported as:
+earthchem_download_46477_csv.csv
+
+## 👤 Author
 Zarin Ali
 Geologist | Researcher
 2025
