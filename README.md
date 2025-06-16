@@ -37,24 +37,24 @@ rock-classifier-ml/
 git clone https://github.com/zarinali735/rock-classifier-ml.git
 cd rock-classifier-ml
 
+---
 ### Install the requirements
 pip install -r requirements.txt
-
+---
 ### Prediction should have these columns/ Prepare your own input .csv
 SIO2,FEO,AL2O3
-
+---
 ### Run predictions
 predict.py sample_data.csv
 ### This will create a file named 
 output/predicted_rock_types.csv
 ### Note that in this repository, the output/ folder has been compressed for download as output.zip
-
-
+---
 ### Download and extract output.zip to access:
 ### rock_classifier_model.joblib → Trained Decision Tree model
 ### predicted_rock_types.csv → Output predictions from predict.py
 ### The training script also includes scatter plots and a confusion matrix for visual performance insights.
-
+---
 ### Data Source : Original data from EarthChem Portal https://www.earthchem.org/, exported as: earthchem_download_46477_csv.csv
 ### 
 👤 Author
